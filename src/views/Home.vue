@@ -23,11 +23,27 @@
   <span class="Lorem_ipsum">
     Lorem ipsum
   </span>
+  <br>
+  <span class="text_lorem">
+    test tes test test test ets ets et st ajobaizv aeih hayufk hadpihkj azduyvaedpi zftun zio aui ,efabio, zd vi zobi av
+    aefba
+    aefaefbioabob uab azuzg azuiv auibkj aiuvk adudyvkh   doubk   zdiyvkh   zdivih aofb aiva eiyfv zrpin jaiuvcn kaeiuhk faeiuh auy  ai 
+     jazuyv aeobknc ik aefouk c jb syfjh aiuk a
+     lbaelfoib alefobl aeoibl affobla efolna efouj afuol jafefoun aeiv eafouvlj afiuvkj jafiuvakjf iu faivka fkia fkna fiua
+  </span>
   <img class="illu" src="../assets/Illustration_Page_Accueil.png" >
   <br>
   <span class="actus">
     Nos Actualités
   </span>
+  
+
+  <div class="actus1"><Actus></Actus></div>
+ 
+  <span class="partenaire">
+    Nos Partenaires
+  </span>
+
   
   
   
@@ -39,11 +55,12 @@
 
 <script>
 import Footer from '../components/footer.vue'
-
+import Actus from  '../components/actus.vue'
 export default {
   
   components:{
-    Footer
+    Footer,
+    Actus
   }
 }
 </script>
@@ -51,10 +68,40 @@ export default {
 
 <style lang="scss">
 
+.partenaire {
+  width: 499px;
+  height: 65px;
+  margin-bottom: 20px;
+  font-family: Hobeaux;
+  font-size: 50px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.3px;
+  text-align: center;
+  color: #eb7659;}
+
+.text_lorem{
+   
+  margin:20px 1000px -10% 150px;
+  opacity: 0.7;
+  font-family: Quasimoda;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: 0.22px;
+  text-align: left;
+  color: #313131;
+  display:block;
+}
+
 .Lorem_ipsum{
   width: 413px;
   height: 50px;
- margin-right: 50%;
+ margin-right: 60%;
  margin-top:500px;
   font-family: Hobeaux;
   font-size: 50px;
@@ -79,7 +126,8 @@ export default {
   
 
   font-family: Hobeaux;
-  margin-left: -750px;
+  margin-left: -850px;
+  
   margin-top: 500px;
   font-size: 35px;
   font-weight: 600;
