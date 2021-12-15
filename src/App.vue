@@ -6,7 +6,7 @@
   <div id="app">
    
     <div id="nav">
-         <img class="logo" src="./assets/Titre.png" width="7%" height="50%" >  
+         <img class="logo" src="./assets/Titre.png" width="185px" height="49px" >  
         <ul>
           <li><router-link to="/">Home</router-link> </li>   
           <li> <router-link to="/programmation">Programmation</router-link></li>
@@ -43,11 +43,9 @@ padding: 0;}
 
 
 #app {
-  
-  
+ 
   background-color: #FAE2D2;
   text-align: center;
-  
   
 }
 
@@ -55,10 +53,10 @@ padding: 0;}
 
 #nav {
    width: 100%;
-   height: 50px;
-    font-family: quasimoda, sans-serif;
+   height: 90px;
+    font-family: quasimoda;
     font-weight:bold ;
-    font-size: 12px;
+    font-size: 20px;
     border: 1px  solid lightgrey;
    position: fixed;
     background-color: #FAE2D2;
@@ -69,7 +67,7 @@ padding: 0;}
   }
 
   .bil{
-  color: white;
+  color: #fce9d8;
   background-image: url("./assets/billeterie.png");
   background-size:100%;
   background-repeat: no-repeat;
@@ -94,7 +92,8 @@ padding: 0;}
 
   li a {   
     display: inline;
-    color:#876956;   
+    color:#313131;   
+    opacity: 0.7;
     padding: 24px;
     text-decoration: none;
   }
