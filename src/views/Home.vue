@@ -140,78 +140,57 @@ export default {
 }
 
 .Festival {
-  width: 305px;
-  height: 96px;
-  margin: -300px 300px -20px 0;
   font-family: Quasimoda;
   font-size: 52px;
   font-weight: 900;
   letter-spacing: 1.6px;
-  text-align: left;
   color: #313131;
 }
 .Les-kos {
-  width: 603px;
-  height: 191px;
-  margin: 20px 0 70px;
   white-space: nowrap;
   font-family: Hobeaux;
   font-size: 110px;
   font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
   letter-spacing: 3.2px;
-  text-align: left;
   color: #eb7659;
-  display: inline; 
 }
 
 .Ellipse-1 {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   margin: -120px 117px 29.7px -90px;
   padding: 289px 301px 236px 205px;
   border: solid 1px rgba(136, 136, 136, 0.5);
   background-color: #fce9d8;
   border-radius: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .text_home{
-   width: 534px;
-  height: 129px;
-  margin: 45px 60px 104.6px 9px;
   opacity: 0.7;
   font-family: Quasimoda;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 350;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.30;
   letter-spacing: 0.23px;
   text-align: left;
   color: #313131;
+  margin-top: 10px;
 }
 
   .decouvrir{
-    background-image: url("../assets/shape_bleu.png");
-    background-size:100%;
+  background-image: url(/img/shape_bleu.fb1c3d18.png);
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   text-decoration: none;
-  width: 109px;
-  height: 28px;
   font-family: Hobeaux;
   font-size: 19px;
-  padding:6px;
-  font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  display: flex;
-  margin-top: 10%;
-  letter-spacing: 0.52px;
-  
+  padding: 20px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
   color: #fce9d8;
+  margin-top: 30px;
   }
 
   .fest{
