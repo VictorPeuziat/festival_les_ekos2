@@ -82,7 +82,7 @@ padding: 0;}
     
     list-style-type: none;
      position: absolute;
-    top:40%; left:40%;
+    top:40%; right: 5%;
     
     }
 
