@@ -1,6 +1,9 @@
 <template>
     <div class="programmation">
-        <h1>Ceci est une programmation</h1>
+        <h1>Programmation</h1>
+        <br>
+        <Progra_gauche />
+        <br>
         <Footer />
     </div>
 </template>
@@ -9,11 +12,13 @@
 <script>
 
 import Footer from '../components/footer.vue'
+import Progra_gauche from '../components/progra_gauche.vue'
 
 export default {
   
   components:{
-    Footer
+    Footer,
+    Progra_gauche
   }
 }
 </script>

@@ -1,18 +1,20 @@
 
 <template>
+
   <div>
-    
+    <link rel="stylesheet" href="https://use.typekit.net/uoa1cmf.css">
   <div id="app">
    
     <div id="nav">
-     
-    <ul><li>  <router-link to="/">Home</router-link> </li>
-     
-     <li> <router-link to="/programmation">Programmation</router-link></li>
-     <li><img src="./assets/Titre.png" width="200px" height="80px"></li>
-     <li> <router-link to="/actualite">Actualités</router-link></li>
-     <li> <router-link to="/about">A propos</router-link></li>
-      </ul>
+         <img class="logo" src="./assets/Titre.png" width="7%" height="50%" >  
+        <ul>
+          <li><router-link to="/">Home</router-link> </li>   
+          <li> <router-link to="/programmation">Programmation</router-link></li>
+          <li> <router-link to="/actualite">Actualités</router-link></li>
+          <li> <router-link to="/about">A propos</router-link></li>
+          <li> <router-link to="/billeterie" class="bil" >billeterie</router-link> </li>
+         
+        </ul>
     </div>
     <router-view/>
   </div>
@@ -29,45 +31,73 @@
 
 
 <style lang="scss">
+
+
+
+
+
+
+
 *{margin:0%;
 padding: 0;}
+
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  
+  background-color: #FAE2D2;
   text-align: center;
-  color: #2c3e50;
-  background-image: url('~@/assets/Motifs.jpg');
+  
+  
 }
+
+
 
 #nav {
-  padding: 5px;
+   width: 100%;
+   height: 50px;
+    font-family: quasimoda, sans-serif;
+    font-weight:bold ;
+    font-size: 12px;
+    border: 1px  solid lightgrey;
+   position: fixed;
+    background-color: #FAE2D2;
+ 
+  .logo{
+    position: absolute;
+    top: 20%; left: 4.5%;
+  }
 
-ul {
-    list-style-type: none;
-    margin: 10;
-    padding: 10;
-    overflow: hidden;
+  .bil{
+  color: white;
+  background-image: url("./assets/billeterie.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  
+  }
+
+ 
+
+  ul {
     
-}
+    list-style-type: none;
+     position: absolute;
+    top:40%; left:40%;
+    
+    }
 
-li {
-  display: inline;
-   
-}
+  li {
+    display: inline; 
+  }
 
-li a {
+  li a {   
     display: inline;
-    color:#6EBFAF;
-    text-align: center;
-    padding: 14px 16px;
+    color:#876956;   
+    padding: 24px;
     text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #876956;
-}
+  }
   
 }
 </style>
